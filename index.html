@@ -62,8 +62,26 @@
       gap: 20px;
     }
 
-    header { padding-bottom: 42px; }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 28px;
+      padding-bottom: 42px;
+    }
 
+    .intro {
+      flex: 1 1 280px;
+      min-width: 0;
+    }
+
+    .profile-photo {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 16px;
+    }
     section {
       border-top: 1px solid #deded8;
       padding: 28px 0;
